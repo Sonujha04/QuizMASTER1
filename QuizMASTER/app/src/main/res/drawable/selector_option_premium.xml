@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/primary" />
+                    <corners android:radius="16dp" />
+                </shape>
+            </item>
+            <!-- White circle in selected state -->
+            <item android:width="32dp" android:height="32dp" android:gravity="start|center_vertical" android:left="16dp">
+                <shape android:shape="oval">
+                    <stroke android:width="2dp" android:color="@color/white" />
+                </shape>
+            </item>
+            <!-- Filled radio dot in selected state -->
+            <item android:width="16dp" android:height="16dp" android:gravity="start|center_vertical" android:left="24dp">
+                <shape android:shape="oval">
+                    <solid android:color="@color/white" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/surface_dark" />
+                    <stroke android:width="2dp" android:color="@color/option_stroke" />
+                    <corners android:radius="16dp" />
+                </shape>
+            </item>
+            <!-- Circle placeholder for the A, B, C, D label -->
+            <item android:width="32dp" android:height="32dp" android:gravity="start|center_vertical" android:left="16dp">
+                <shape android:shape="oval">
+                    <stroke android:width="1.5dp" android:color="@color/option_stroke" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

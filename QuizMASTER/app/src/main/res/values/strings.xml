@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quiz MASTER</string>
+    <string name="hello_sonu">Hello, Sonu!</string>
+    <string name="ready_to_test">Ready to test your knowledge?</string>
+    <string name="your_progress">Your Progress</string>
+    <string name="quizzes">Quizzes</string>
+    <string name="avg_score">Avg Score</string>
+    <string name="streak">Streak</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="categories">Categories</string>
+    <string name="see_all">See All</string>
+    <string name="recent_quizzes">Recent Quizzes</string>
+    <string name="data_structures">Data Structures</string>
+    <string name="twenty_questions">20 Questions</string>
+    <string name="operating_systems">Operating Systems</string>
+    <string name="fifteen_questions">15 Questions</string>
+    <string name="live_group_quiz">Live Group Quiz</string>
+    <string name="group_quiz_desc">Join or host a quiz with friends</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_leaderboard">Leaderboard</string>
+    <string name="nav_upload">Upload</string>
+    <string name="nav_profile">Profile</string>
+</resources>

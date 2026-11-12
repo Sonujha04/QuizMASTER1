@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Modern Vibrant Quiz App Palette -->
+    <color name="primary">#6C5CE7</color>
+    <color name="primary_dark">#100E26</color>
+    <color name="primary_light">#8C7EF0</color>
+
+    <color name="secondary">#00CEC9</color>
+    <color name="accent">#FF7675</color>
+    <color name="gold">#FDCB6E</color>
+
+    <color name="background_dark">#100E26</color>
+    <color name="surface_dark">#1D1B44</color>
+    <color name="surface_dark_card">#25225A</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="background_light">#F5F7FB</color>
+    <color name="background">#100E26</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Feedback -->
+    <color name="correct">#00B894</color>
+    <color name="incorrect">#FF7675</color>
+
+    <!-- Text -->
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gray">#A0A0C0</color>
+    <color name="text_secondary">#7A7A9E</color>
+    <color name="text_dark">#100E26</color>
+
+    <!-- Option Selection -->
+    <color name="option_stroke">#373373</color>
+    <color name="option_selected_bg">#6C5CE7</color>
+</resources>
